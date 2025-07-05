@@ -1,0 +1,149 @@
+/* >Global Config Properties< */
+* {
+  font:   "JetBrains Mono Nerd Font 10";
+
+  bg0     : #3A3634;
+  bg1     : #504945;
+  bg2     : #A89984;
+  bg3     : #3c3836;
+  fg0     : #FFFFFF;
+  fg1     : #a9b1d6;
+  fg2     : #737aa2;
+  red     : #f7768e;
+  green   : #9ece6a;
+  yellow  : #e0af68;
+  blue    : #7aa2f7;
+  magenta : #9a7ecc;
+  cyan    : #4abaaf;
+
+  accent: #D5C4A1;
+  urgent: #eed49f;
+
+  background-color : transparent;
+  text-color       : @fg0;
+
+  margin  : 0;
+  padding : 0;
+  spacing : 0;
+}
+
+element-icon, element-text, scrollbar {
+  cursor: pointer;
+}
+
+/* >Main Window< */
+
+window {
+  location : north;
+  width    : 350px;
+  x-offset : 0px;
+  y-offset : 50px;
+
+  background-color: @bg1;
+  border: 2px;
+  border-color: @bg3;
+  border-radius: 10px;
+}
+
+/* >Search Bar< */
+/* Owo, its me, Argosia here to say that this section drove me insane, hehe >w<*/
+
+
+inputbar {
+  spacing  : 15px;
+  padding  : 15px 10px;
+  border   : 4px;
+  border-radius   : 10px;
+  border-color: @bg1;
+  children : [ prompt ,icon-search, entry ];
+
+  background-color: @bg0;
+}
+
+prompt{
+  enabled: false;
+  padding: 15px 0px;
+  background-color: inherit;  
+}
+
+entry{
+  enabled: true;
+  background-color: inherit;
+  cursor: text;
+  placeholder: "                Search";
+  placeholder-color: @bg2 ;
+}
+
+icon-search, entry, element-icon, element-text {
+  vertical-align: 0.5;
+}
+
+icon-search {
+  enabled  : false;
+  expand   : false;
+  filename : "search-symbolic";
+  size     : 14px;
+}
+
+textbox {
+  padding          : 0px 10px;
+  background-color : @bg2;
+}
+
+/* >Individual Elements< */
+
+listview {
+  padding      : 4px 0px;
+  lines        : 6;
+  columns      : 1;
+  dynamic      : true;
+  scrollbar    : false;
+  fixed-height : false;
+  dynamic      : true;
+  spacing      : 15px;
+}
+
+element {
+  padding : 15px 15px;
+  spacing : 15px;
+  border-radius: 15px;
+  border: 2px;
+  border-color: @bg1;
+  cursor: pointer;
+}
+
+element normal urgent {
+  text-color: @urgent;
+}
+
+element normal active {
+  text-color: @accent;
+}
+
+element alternate active {
+  text-color: @accent;
+}
+
+element selected {
+  text-color       : @bg1;
+  background-color : @accent;
+}
+
+element selected urgent {
+  background-color: @urgent;
+}
+
+element-icon {
+  enabled: true;
+  size: 1.5em;
+}
+
+element-text {
+  text-color: inherit;
+}
+
+scrollbar {
+  handle-width : 1px;
+  handle-color : @fg2;
+  padding      : 0 4px;
+}
