@@ -1,9 +1,9 @@
 # Arch Linux + Hyprland Rice 
 Dotfiles
 
-Author: Fugastra
-Date of uploading: 5th July, 2025
-License: GNU GPL V3 License
+- Author: Fugastra
+- Date of uploading: 5th July, 2025
+- License: GNU GPL V3 License
 
 -===========================================-
 
@@ -30,8 +30,8 @@ For Rofi themes:
 For waybar:
 
 Use the files titled
-  > config.jsonc
-  > style.css
+  > - config.jsonc
+  > - style.css
 
 **Do NOT use the other files**
 They are also presets I downloaded that I forgot to clean up.
