@@ -1,5 +1,5 @@
 # Arch Linux + Hyprland Rice 
-## Dotfiles
+Dotfiles
 
 Author: Fugastra
 Date of uploading: 5th July, 2025
@@ -9,11 +9,11 @@ License: GNU GPL V3 License
 
 **System info(fastfetch):**
 
-OS: Arch Linux x86_64
-WM: Hyprland 0.47.2 (Wayland)
-Cursor: Adwaita
-Terminal: kitty 0.39.1
-Terminal Font: NotoSansMono-Regular (11pt)
+- OS: Arch Linux x86_64
+- WM: Hyprland 0.47.2 (Wayland)
+- Cursor: Adwaita
+- Terminal: kitty 0.39.1
+- Terminal Font: NotoSansMono-Regular (11pt)
 
 -===========================================-
 
@@ -21,9 +21,9 @@ Terminal Font: NotoSansMono-Regular (11pt)
 
 For Rofi themes:
 
-**OPEN THE FOLDER NAMED rofi**
-In **themes** (the folder)
-the config file called **hyprofi.rasi** is the correct file, the other .rasi files are downloaded presets I forgot to delete!!!
+1. **OPEN THE FOLDER NAMED rofi**
+2. In **themes** (the folder)
+3. the config file called **hyprofi.rasi** is the correct file, the other .rasi files are downloaded presets I forgot to delete!!!
 
 ---
 
