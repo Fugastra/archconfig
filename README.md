@@ -37,3 +37,9 @@ Use the files titled
 They are also presets I downloaded that I forgot to clean up.
 
 ## Gallery 
+
+![screenshot](screenshot01.png)
+
+![Screenshot](screenshot02.png)
+
+![screenshot](screenshot03.png)
